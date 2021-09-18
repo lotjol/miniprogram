@@ -1,0 +1,160 @@
+
+.search {
+  display: flex;
+  flex-direction: column;
+  
+  // 搜索框
+  .input-wrap {
+    display: flex;
+    height: 100px;
+    padding: 20px;
+    background-color: #ea4451;
+    box-sizing: border-box;
+    position: relative;
+
+    &::before,
+    &::after {
+      height: 44px;
+      line-height: 1;
+      background-image: url(https://static.botue.com/ugo/images/icon_search%402x.png);
+      background-size: 32px;
+      background-position: 6px center;
+      background-repeat: no-repeat;
+      position: absolute;
+      top: 28px;
+      z-index: 9;
+    }
+
+    &::before {
+      content: '搜索';
+      display: block;
+      // width: 100px;
+      padding: 11px 0 10px 44px;
+      box-sizing: border-box;
+      color: #666;
+      font-size: 24px;
+      left: 325px;
+    }
+
+    &::after {
+      display: none;
+      content: '';
+      width: 44px;
+      left: 40px;
+    }
+
+    .input {
+      flex: 1;
+      height: 60px;
+      padding: 0 20px 0 64px;
+      background-color: #fff;
+      border-radius: 8px;
+      font-size: 24px;
+      color: #666;
+    }
+
+    .cancel {
+      display: none;
+      width: 80px;
+      text-align: right;
+      line-height: 60px;
+      font-size: 27px;
+      color: #666;
+    }
+  }
+
+  // 搜索结果
+  .content {
+    display: none;
+    flex: 1;
+    padding: 27px;
+    background-color: #fff;
+    position: relative;
+
+    .title {
+      font-size: 27px;
+      line-height: 1;
+      color: #333;
+    }
+
+    .clear {
+      display: block;
+      width: 27px;
+      height: 27px;
+      float: right;
+      background-image: url(https://static.botue.com/ugo/images/clear.png);
+      background-size: cover;
+    }
+
+    .history {
+      padding-top: 30px;
+
+      .navigator {
+        display: inline-block;
+        line-height: 1;
+        padding: 15px 20px 12px;
+        background-color: #ddd;
+        font-size: 24px;
+        margin-right: 20px;
+        margin-bottom: 15px;
+        color: #333;
+      }
+    }
+
+    .result {
+      // display: none;
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      background-color: #fff;
+
+      .scroll-view {
+        height: 100%;
+      }
+
+      .navigator {
+        line-height: 1;
+        padding: 20px 30px;
+        font-size: 24px;
+        color: #666;
+        border-bottom: 1px solid #eee;
+
+        &:last-child {
+          border-bottom: none;
+        }
+      }
+    }
+  }
+  
+  // 获得焦点状态
+  &.focused {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 9;
+
+    .input-wrap {
+      background-color: #eee;
+
+      &::before {
+        display: none;
+      }
+
+      &::after {
+        display: block;
+      }
+    }
+
+    .cancel {
+      display: block;
+    }
+
+    .content {
+      display: block;
+    }
+  }
+}

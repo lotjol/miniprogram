@@ -1,0 +1,137 @@
+.wrapper {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #f4f4f4;
+}
+
+.profile {
+  height: 375px;
+  background-color: #ea4451;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .meta {
+
+    .avatar {
+      display: block;
+      width: 140px;
+      height: 140px;
+      border-radius: 50%;
+      border: 2px solid #fff;
+      overflow: hidden;
+    }
+
+    .nickname {
+      display: block;
+      text-align: center;
+      margin-top: 20px;
+      font-size: 30px;
+      color: #fff;
+    }
+  }
+}
+
+.count {
+  display: flex;
+  margin: 0 20px;
+  height: 100px;
+  text-align: center;
+  border-radius: 4px;
+  background-color: #fff;
+  position: relative;
+  top: -27px;
+
+  .cell {
+    flex: 1;
+    padding-top: 16px;
+    font-size: 27px;
+    color: #333;
+  }
+
+  .text {
+    display: block;
+    font-size: 24px;
+  }
+}
+
+.orders {
+  margin: -17px 20px 0 20px;
+  padding: 20px 0;
+  background-color: #fff;
+  border-radius: 4px;
+
+  .title {
+    padding-left: 20px;
+    font-size: 30px;
+    color: #333;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eee;
+  }
+
+  .sorts {
+    padding-top: 30px;
+    text-align: center;
+    display: flex;
+  }
+
+  [class*="icon-"] {
+    flex: 1;
+    font-size: 24px;
+
+    &::before {
+      display: block;
+      font-size: 48px;
+      margin-bottom: 8px;
+      color: #ea4451;
+    }
+  }
+}
+
+.address {
+  line-height: 1;
+  background-color: #fff;
+  font-size: 30px;
+  padding: 25px 0 25px 20px;
+  margin: 10px 20px;
+  color: #333;
+  border-radius: 4px;
+}
+
+.extra {
+  margin: 0 20px;
+  background-color: #fff;
+  border-radius: 4px;
+
+  .item {
+    line-height: 1;
+    padding: 25px 0 25px 20px;
+    border-bottom: 1px solid #eee;
+    font-size: 30px;
+    color: #333;
+  }
+
+  .button {
+    text-align: left;
+    background-color: #fff;
+    border: 0 none;
+    
+    &::after {
+      border: none;
+      border-radius: 0;
+    }
+  }
+}
+
+.icon-arrow {
+  position: relative;
+
+  &::before {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+  }
+}
