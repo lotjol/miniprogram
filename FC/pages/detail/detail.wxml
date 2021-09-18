@@ -1,0 +1,67 @@
+<view class="overview">
+  <!-- 封面图 -->
+  <image class="cover" src="https://static.botue.com/paradise/uploads/detail_1.png"></image>
+  <!-- 信息 -->
+  <view class="meta">
+    <!-- 活动名称 -->
+    <text class="name">与所有的人以诚相待，同多数人和睦相处，和少数人常来常往，只跟一个人亲密无间。</text>
+    <!-- 相关 -->
+    <text class="extra">
+      <text class="icon icon-flag"> 200人已报名</text>
+      <text class="icon icon-clock"> 本周开始</text>
+    </text>
+    <!-- 类型 -->
+    <text class="type">免费</text>
+  </view>
+</view>
+<!-- 相关信息 -->
+<view class="panel info">
+  <text class="icon-calendar"> 2016.11.02-2016.11.05  09:00-12:30</text>
+  <text class="icon-location"> 北京市朝阳区游乐园娱乐区2楼328室</text>
+  <text class="icon-user"> 活动无限制，会员均可报名</text>
+</view>
+<!-- 详细 -->
+<view class="panel detail">
+  <!-- 标题 -->
+  <text class="title">活动详情:</text>
+  <!-- 内容 -->
+  <view class="content {{collapsed ? 'collapsed' : ''}}">
+    <view class="html">绿野网成立于1998年底，是中国第一家，也是目前最大的一家户外旅行活动网站，在广大户外运动爱好者中拥有强大的影响力。2013年9月，绿野网经过15年的历史积累和近几年的商业化运营，被上市公司探路者(300005)战略投资。融资之后的绿野进入了一个高速发展的阶段，致力于建设和运营面向全球的户外运动和深度体验式旅行综合服务平台，成为国内领先、国际一流的的一站式户外旅行综合服务提供商。<image src="https://static.botue.com/paradise/uploads/content_1.png" mode="aspectFill"></image>
+    绿野网成立于1998年底，是中国第一家，也是目前最大的一家户外旅行活动网站，在广大户外运动爱好者中拥有强大的影响力。2013年9月，绿野网经过15年的历史积累和近几年的商业化运营，被上市公司探路者(300005)战略投资。绿野网成立于1998年底，是中国第一家，也是目前最大的一家户外旅行活动网站，在广大户外运动爱好者中拥有强大的影响力。2013年9月，绿野网经过15年的历史积累和近几年的商业化运营，被上市公司探路者(300005)战略投资。融资之后的绿野进入了一个高速发展的阶段，致力于建设和运营面向全球的户外运动和深度体验式旅行综合服务平台，成为国内领先、国际一流的的一站式户外旅行综合服务提供商。绿野网成立于1998年底，是中国第一家，也是目前最大的一家户外旅行活动网站，在广大户外运动爱好者中拥有强大的影响力。2013年9月，绿野网经过15年的历史积累和近几年的商业化运营，被上市公司探路者(300005)战略投资。融资之后的绿野进入了一个高速发展的阶段，致力于建设和运营面向全球的户外运动和深度体验式旅行综合服务平台，成为国内领先、国际一流的的一站式户外旅行综合服务提供商。绿野网成立于1998年底，是中国第一家，也是目前最大的一家户外旅行活动网站，在广大户外运动爱好者中拥有强大的影响力。2013年9月，绿野网经过15年的历史积累和近几年的商业化运营，被上市公司探路者(300005)战略投资。融资之后的绿野进入了一个高速发展的阶段，致力于建设和运营面向全球的户外运动和深度体验式旅行综合服务平台，成为国内领先、国际一流的的一站式户外旅行综合服务提供商。
+    </view>
+    <!-- 展开详情 -->
+    <view class="expand" wx:if="{{collapsed}}" bindtap="expand">
+      展开所有详情 <text class="icon-down"></text>
+    </view>
+  </view>
+</view>
+<!-- 注意事项 -->
+<view class="panel notice">
+  <!-- 标题 -->
+  <text class="title">参加须知:</text>
+  <view class="list">
+    <text>活动结束前均可参加</text>
+    <text>参与凭证：电子票</text>
+    <text>不需求自备物品</text>
+  </view>
+  <!-- 联系我们 -->
+  <view class="contact icon-headset" bindtap="contact"> 咨询客服</view>
+</view>
+<!-- join in -->
+<view class="join" bindtap="poplayer">马上参加</view>
+<!-- 遮罩 -->
+<view class="overlay" hidden="{{flag}}" animation="{{}}">
+  <view class="layer" animation="{{}}">
+    <text class="text">
+      <text>尚未购买游乐园会员卡</text>
+      <text>不具备参加该活动的资格</text>
+    </text>
+    <button hover-class="button-hover" bindtap="cancel">去买卡</button>
+  </view>
+</view>
+
+
+
+
+
+

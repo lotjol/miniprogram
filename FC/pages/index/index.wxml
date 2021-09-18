@@ -1,0 +1,138 @@
+<!-- 焦点图 -->
+<view class="slide">
+  <swiper indicator-dots="true" indicator-color="rgba(255, 255, 255, 0.4)" indicator-active-color="rgba(255, 255, 255, 1)" autoplay="true" interval="4000" duration="1000" circular="true">
+    <swiper-item>
+      <image src="http://static.botue.com/paradise/uploads/slide_1.jpg" class="slide-image"/>
+    </swiper-item>
+    <swiper-item>
+      <image src="http://static.botue.com/paradise/uploads/slide_2.jpg" class="slide-image"/>
+    </swiper-item>
+    <swiper-item>
+      <image src="http://static.botue.com/paradise/uploads/slide_3.jpg" class="slide-image"/>
+    </swiper-item>
+    <swiper-item>
+      <image src="http://static.botue.com/paradise/uploads/slide_4.jpg" class="slide-image"/>
+    </swiper-item>
+    <swiper-item>
+      <image src="http://static.botue.com/paradise/uploads/slide_5.jpg" class="slide-image"/>
+    </swiper-item>
+    <swiper-item>
+      <image src="" class="slide-image"/>
+    </swiper-item>
+  </swiper>
+</view>
+<!-- 标题 -->
+<view class="activity">
+  <text class="title">乐园活动</text>
+  <!-- 列表 -->
+  <view class="item">
+    <!-- 状态 -->
+    <text class="status active">进行中</text>
+    <!-- 收藏 -->
+    <text class="collect"></text>
+    <navigator hover-class="none" url="/pages/detail/detail">
+      <!-- 缩略图 -->
+      <image src="http://static.botue.com/paradise/uploads/item_1.png" class="thumb" mode="scaleToFill"/>
+    </navigator>
+    <!-- 活动信息 -->
+    <view class="meta">
+      <!-- 活动名称 -->
+      <text class="name">摄影兴趣班-7天教会你精通摄影，培养孩子兴趣从娃娃抓起</text>
+      <!-- 其它 -->
+      <text class="extra">
+        <text class="icon icon-flag"> 200人已报名</text>
+        <text class="icon icon-clock"> 本周开始</text>
+      </text>
+      <!-- 类型 -->
+      <text class="type">免费</text>
+    </view>
+  </view>
+  <view class="item">
+    <!-- 状态 -->
+    <text class="status active">进行中</text>
+    <!-- 收藏 -->
+    <text class="collect"></text>
+    <navigator hover-class="none" url="/pages/detail/detail">
+      <!-- 缩略图 -->
+      <image src="http://static.botue.com/paradise/uploads/item_2.png" class="thumb" mode="scaleToFill"/>
+    </navigator>
+    <!-- 活动信息 -->
+    <view class="meta">
+      <!-- 活动名称 -->
+      <text class="name">疯狂的红包 不一样的撕名牌 大型家庭亲子户外活动</text>
+      <!-- 其它 -->
+      <text class="extra">
+        <text class="icon icon-flag"> 200人已报名</text>
+        <text class="icon icon-clock"> 本周开始</text>
+      </text>
+      <!-- 类型 -->
+      <text class="type">免费</text>
+    </view>
+  </view>
+  <view class="item">
+    <!-- 状态 -->
+    <text class="status">已截止</text>
+    <!-- 收藏 -->
+    <text class="collect"></text>
+    <navigator hover-class="none" url="/pages/detail/detail">
+      <!-- 缩略图 -->
+      <image src="http://static.botue.com/paradise/uploads/item_3.png" class="thumb" mode="scaleToFill"/>
+    </navigator>
+    <!-- 活动信息 -->
+    <view class="meta">
+      <!-- 活动名称 -->
+      <text class="name">趣味识图-欢乐游戏中认识世界地图，亲子互动不可错过</text>
+      <!-- 其它 -->
+      <text class="extra">
+        <text class="icon icon-flag"> 200人已报名</text>
+        <text class="icon icon-clock"> 本周开始</text>
+      </text>
+      <!-- 类型 -->
+      <text class="type">免费</text>
+    </view>
+  </view>
+  <view class="item">
+    <!-- 状态 -->
+    <text class="status">已结束</text>
+    <!-- 收藏 -->
+    <text class="collect"></text>
+    <navigator hover-class="none" url="/pages/detail/detail">
+      <!-- 缩略图 -->
+      <image src="http://static.botue.com/paradise/uploads/item_4.png" class="thumb" mode="scaleToFill"/>
+    </navigator>
+    <!-- 活动信息 -->
+    <view class="meta">
+      <!-- 活动名称 -->
+      <text class="name">音乐兴趣班-7天教会你精通音乐，培养孩子兴趣从娃娃抓起</text>
+      <!-- 其它 -->
+      <text class="extra">
+        <text class="icon icon-flag"> 200人已报名</text>
+        <text class="icon icon-clock"> 本周开始</text>
+      </text>
+      <!-- 类型 -->
+      <text class="type">免费</text>
+    </view>
+  </view>
+  <view class="item">
+    <!-- 状态 -->
+    <text class="status">已结束</text>
+    <!-- 收藏 -->
+    <text class="collect"></text>
+    <navigator hover-class="none" url="/pages/detail/detail">
+      <!-- 缩略图 -->
+      <image src="" class="thumb" mode="scaleToFill"/>
+    </navigator>
+    <!-- 活动信息 -->
+    <view class="meta">
+      <!-- 活动名称 -->
+      <text class="name">音乐兴趣班-7天教会你精通音乐，培养孩子兴趣从娃娃抓起</text>
+      <!-- 其它 -->
+      <text class="extra">
+        <text class="icon icon-flag"> 200人已报名</text>
+        <text class="icon icon-clock"> 本周开始</text>
+      </text>
+      <!-- 类型 -->
+      <text class="type">免费</text>
+    </view>
+  </view>
+</view>

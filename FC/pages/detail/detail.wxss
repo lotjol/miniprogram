@@ -1,0 +1,242 @@
+
+page {
+	background-color: #F0F0F0;
+	padding-bottom: 280rpx;
+}
+
+/*概览*/
+.overview .cover {
+	display: block;
+	width: 100%;
+	height: 400rpx;
+	background: #D8D8D8 url(https://static.botue.com/paradise/images/placeholder.png) no-repeat center;
+	background-size: 260rpx auto;
+}
+
+.overview .meta {
+	padding: 15rpx 30rpx 20rpx;
+	background-color: #FFF;
+
+	position: relative;
+}
+
+.overview .meta .name {
+	display: block;
+	line-height: 1.5;
+	font-size: 15px;
+	color: #3C3C3C;
+}
+
+.overview .meta .extra {
+	display: block;
+	margin-top: 24rpx;
+	font-size: 11px;
+	color: #B4B4B4;
+}
+
+.overview .extra .icon {
+	margin-right: 12px;
+}
+
+.overview .meta .type {
+	font-size: 15px;
+	color: #FE6249;
+	position: absolute;
+	right: 30rpx;
+	bottom: 18rpx;
+}
+
+/*公共面板*/
+.panel {
+	padding: 0 30rpx;
+	margin-top: 24rpx;
+	background-color: #FFF;
+	overflow: hidden;
+}
+
+.panel .title {
+	display: block;
+	padding: 24rpx 0;
+	margin-right: -30rpx;
+	border-bottom: 1px solid #F0F0F0;
+	font-size: 12px;
+	color: #3C3C3C;
+}
+
+/*相关信息*/
+.info text {
+	display: block;
+	line-height: 1;
+	padding: 24rpx 0;
+	margin-right: -30rpx;
+	border-bottom: 1rpx solid #EEE;
+	font-size: 12px;
+	color: #6C6C6C;
+}
+
+.info text:last-child {
+	border-bottom: none;
+}
+
+/*活动详情*/
+.detail .content {
+	min-height: 360rpx;
+	padding: 24rpx 0;
+	position: relative;
+	overflow: hidden;
+}
+
+.detail .collapsed {
+	max-height: 1200rpx;
+	padding-bottom: 0;
+}
+
+/*临时样式*/
+.detail .content {
+	line-height: 1.5;
+	font-size: 12px;
+	color: #A0A0A0;
+}
+
+.detail .content image {
+	display: block;
+	width: 100%;
+	margin: 16rpx 0;
+}
+
+.detail .content .expand {
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	width: 100%;
+	height: 120rpx;
+	line-height: 1;
+	padding-bottom: 30rpx;
+	color: #45B8FF;
+	font-size: 14px;
+	background-image: linear-gradient(to top, white, rgba(255, 255, 255, 0.5));
+
+	position: absolute;
+	bottom: 0;
+}
+
+.detail .content .icon-down {
+	margin-left: 10rpx;
+}
+
+/*注意事项*/
+.notice {
+	padding-bottom: 30rpx;
+	/*margin-bottom: 210rpx;*/
+	overflow: hidden;
+}
+
+.notice .list {
+	margin-bottom: 24rpx;
+	overflow: hidden;
+}
+
+.notice .list text {
+	display: block;
+	padding-left: 20rpx;
+	margin: 24rpx 0;
+	font-size: 12px;
+	color: #A0A0A0;
+	position: relative;
+}
+
+.notice .list text:before {
+	content: '';
+	display: block;
+	width: 14rpx;
+	height: 14rpx;
+	margin-top: -7rpx;
+	background-color: #D8D8D8;
+	border-radius: 50%;
+
+	position: absolute;
+	left: 0;
+	top: 50%;
+}
+
+.notice .contact {
+	text-align: center;
+	padding: 24rpx 0;
+	border: 1px solid #D8D8D8;
+	font-size: 14px;
+	color: #969696;
+	border-radius: 5rpx;
+}
+
+/*马上参加*/
+.join {
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	text-align: center;
+	padding: 30rpx;
+	font-size: 20px;
+	color: #FFF;
+	background-color: #FECB49;
+}
+
+/*遮罩*/
+.overlay {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: rgba(0, 0, 0, 0.5);
+
+	position: fixed;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+}
+
+.layer {
+	width: 640rpx;
+	padding: 216rpx 0 36rpx;
+	background: #FFF url(https://static.botue.com/paradise/images/layer_bg.png) 0 0 no-repeat;
+	background-size: 100% auto;
+}
+
+.layer text {
+	display: block;
+}
+
+.layer .text {
+	text-align: center;
+	line-height: 24px;
+	margin: 80rpx 60rpx;
+	font-size: 14px;
+	color: #3C3C3C;
+}
+
+.layer button {
+	border: none !important;
+	margin: 0 40rpx;
+	background-color: #FECA49;
+	color: #FFF;
+	font-size: 16px;
+}
+
+.layer button:after {
+	display: none;
+}
+
+.button-hover {
+	opacity: 0.7;
+}
+
+
+
+
+
+
+
+
+
+
+
+
