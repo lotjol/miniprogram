@@ -1,0 +1,142 @@
+
+
+<search bind_init="_initComponent"></search>
+
+<view class="category">
+  
+  <view class="sup">
+    <scroll-view scroll-y="{{ true }}">
+      <view class="list active">大家电</view>
+      <view class="list">热门推荐</view>
+      <view class="list">海外购</view>
+      <view class="list">苏宁房产</view>
+      <view class="list">手机相机</view>
+      <view class="list">电脑办公</view>
+      <view class="list">厨卫电器</view>
+      <view class="list">食品酒水</view>
+      <view class="list">居家生活</view>
+      <view class="list">厨房电器</view>
+    </scroll-view>
+  </view>
+  
+  <view class="sub">
+    <scroll-view scroll-y="{{ true }}">
+      
+      <image src="/static/uploads/category.png" class="thumb"></image>
+      <view class="children">
+        <view class="title">电视</view>
+        
+        <view class="brands">
+          <navigator url="/pages/list">
+            <image src="/static/uploads/brand_1.jpg"></image>
+            <label>曲面电视</label>
+          </navigator>
+          <navigator url="/pages/list">
+            <image src="/static/uploads/brand_2.jpg"></image>
+            <label>海信</label>
+          </navigator>
+          <navigator url="/pages/list">
+            <image src="/static/uploads/brand_3.jpg"></image>
+            <label>创维</label>
+          </navigator>
+          <navigator url="/pages/list">
+            <image src="/static/uploads/brand_4.jpg"></image>
+            <label>夏普</label>
+          </navigator>
+          <navigator url="/pages/list">
+            <image src="/static/uploads/brand_5.jpg"></image>
+            <label>TCL</label>
+          </navigator>
+          <navigator url="/pages/list">
+            <image src="/static/uploads/brand_6.jpg"></image>
+            <label>PPTV</label>
+          </navigator>
+          <navigator url="/pages/list">
+            <image src="/static/uploads/brand_7.jpg"></image>
+            <label>小米</label>
+          </navigator>
+          <navigator url="/pages/list">
+            <image src="/static/uploads/brand_8.jpg"></image>
+            <label>长虹</label>
+          </navigator>
+        </view>
+      </view>
+      <view class="children">
+        <view class="title">电视</view>
+        
+        <view class="brands">
+          <navigator url="/pages/list">
+            <image src="/static/uploads/brand_1.jpg"></image>
+            <label>曲面电视</label>
+          </navigator>
+          <navigator url="/pages/list">
+            <image src="/static/uploads/brand_2.jpg"></image>
+            <label>海信</label>
+          </navigator>
+          <navigator url="/pages/list">
+            <image src="/static/uploads/brand_3.jpg"></image>
+            <label>创维</label>
+          </navigator>
+          <navigator url="/pages/list">
+            <image src="/static/uploads/brand_4.jpg"></image>
+            <label>夏普</label>
+          </navigator>
+          <navigator url="/pages/list">
+            <image src="/static/uploads/brand_5.jpg"></image>
+            <label>TCL</label>
+          </navigator>
+          <navigator url="/pages/list">
+            <image src="/static/uploads/brand_6.jpg"></image>
+            <label>PPTV</label>
+          </navigator>
+          <navigator url="/pages/list">
+            <image src="/static/uploads/brand_7.jpg"></image>
+            <label>小米</label>
+          </navigator>
+          <navigator url="/pages/list">
+            <image src="/static/uploads/brand_8.jpg"></image>
+            <label>长虹</label>
+          </navigator>
+        </view>
+      </view>
+      <view class="children">
+        <view class="title">电视</view>
+        
+        <view class="brands">
+          <navigator url="/pages/list">
+            <image src="/static/uploads/brand_1.jpg"></image>
+            <label>曲面电视</label>
+          </navigator>
+          <navigator url="/pages/list">
+            <image src="/static/uploads/brand_2.jpg"></image>
+            <label>海信</label>
+          </navigator>
+          <navigator url="/pages/list">
+            <image src="/static/uploads/brand_3.jpg"></image>
+            <label>创维</label>
+          </navigator>
+          <navigator url="/pages/list">
+            <image src="/static/uploads/brand_4.jpg"></image>
+            <label>夏普</label>
+          </navigator>
+          <navigator url="/pages/list">
+            <image src="/static/uploads/brand_5.jpg"></image>
+            <label>TCL</label>
+          </navigator>
+          <navigator url="/pages/list">
+            <image src="/static/uploads/brand_6.jpg"></image>
+            <label>PPTV</label>
+          </navigator>
+          <navigator url="/pages/list">
+            <image src="/static/uploads/brand_7.jpg"></image>
+            <label>小米</label>
+          </navigator>
+          <navigator url="/pages/list">
+            <image src="/static/uploads/brand_8.jpg"></image>
+            <label>长虹</label>
+          </navigator>
+        </view>
+      </view>
+    </scroll-view>
+  </view>
+</view>

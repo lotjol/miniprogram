@@ -1,0 +1,85 @@
+scroll-view {
+  height: 100%;
+}
+.category {
+  display: flex;
+  width: 100%;
+  position: absolute;
+  top: 100rpx;
+  bottom: 0;
+}
+.category .sup {
+  width: 196rpx;
+  background-color: #f4f4f4;
+}
+.category .sup .list {
+  height: 100rpx;
+  text-align: center;
+  line-height: 100rpx;
+  font-size: 27rpx;
+  color: #333;
+  border-bottom: 1rpx solid #eee;
+}
+.category .sup .list:last-child {
+  border-bottom: none;
+}
+.category .sup .list.active {
+  background-color: #FFF;
+  color: #ea4451;
+  position: relative;
+}
+.category .sup .list.active::before {
+  content: '';
+  display: block;
+  width: 8rpx;
+  height: 60rpx;
+  transform: translateY(-50%);
+  background-color: #ea4451;
+  position: absolute;
+  left: 0;
+  top: 50%;
+}
+.category .sub {
+  flex: 1;
+  padding: 20rpx 18rpx;
+}
+.category .sub .thumb {
+  width: 100%;
+  height: 180rpx;
+}
+.category .sub .children {
+  text-align: center;
+  color: #333;
+}
+.category .sub .children .title {
+  display: inline-block;
+  margin: 40rpx 0 20rpx;
+  font-size: 30rpx;
+}
+.category .sub .children .title::before {
+  content: '/';
+  margin-right: 20rpx;
+  color: #666;
+}
+.category .sub .children .title::after {
+  content: '/';
+  margin-left: 20rpx;
+  color: #666;
+}
+.category .sub .brands {
+  display: flex;
+  flex-wrap: wrap;
+}
+.category .sub .brands navigator {
+  width: 33%;
+  margin-bottom: 20rpx;
+}
+.category .sub .brands image {
+  width: 120rpx;
+  height: 120rpx;
+}
+.category .sub .brands label {
+  display: block;
+  font-size: 24rpx;
+}
+

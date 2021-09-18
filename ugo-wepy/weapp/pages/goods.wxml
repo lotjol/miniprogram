@@ -1,0 +1,39 @@
+
+<view class="wrapper">
+  
+  <swiper indicator-dots="{{ true }}" indicator-color="rgba(255, 255, 255, 0.6)" indicator-active-color="#fff" class="pics">
+    <swiper-item>
+      <image src="/static/uploads/detail_1.jpg"></image>
+    </swiper-item>
+    <swiper-item>
+      <image src="/static/uploads/detail_2.jpg"></image>
+    </swiper-item>
+    <swiper-item>
+      <image src="/static/uploads/detail_3.jpg"></image>
+    </swiper-item>
+    <swiper-item>
+      <image src="/static/uploads/detail_4.jpg"></image>
+    </swiper-item>
+    <swiper-item>
+      <image src="/static/uploads/detail_5.jpg"></image>
+    </swiper-item>
+  </swiper>
+  
+  <view class="meta">
+    <view class="price">￥199</view>
+    <view class="name">初语秋冬新款毛衣女 套头宽松针织衫简约插肩袖上衣</view>
+    <view class="shipment">快递: 免运费</view>
+    <label class="collect">收藏</label>
+  </view>
+  
+  <view class="detail">
+    <rich-text></rich-text>
+  </view>
+  
+  <view class="action">
+    <button open-type="contact">联系客服</button>
+    <label data-wpy-evt="6-0" bindtap="_proxy" class="cart">购物车</label>
+    <label class="add">加入购物车</label>
+    <label data-wpy-evt="6-1" bindtap="_proxy" class="buy">立即购买</label>
+  </view>
+</view>

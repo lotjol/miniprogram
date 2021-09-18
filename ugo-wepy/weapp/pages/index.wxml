@@ -1,0 +1,107 @@
+
+<view class="container">
+  
+  <search bind_init="_initComponent" data-wpy-evt="2-0" bindsearch="_proxy"></search>
+  
+  <swiper indicator-dots="{{ true }}" indicator-color="rgba(255, 255, 255, 0.6)" indicator-active-color="#fff" class="banner">
+    <swiper-item>
+      <navigator url="/pages/goods">
+        <image src="/static/uploads/banner1.png"></image>
+      </navigator>
+    </swiper-item>
+    <swiper-item>
+      <navigator url="/pages/goods">
+        <image src="/static/uploads/banner2.png"></image>
+      </navigator>
+    </swiper-item>
+    <swiper-item>
+      <navigator url="/pages/goods">
+        <image src="/static/uploads/banner3.png"></image>
+      </navigator>
+    </swiper-item>
+  </swiper>
+  
+  <view class="navs">
+    <navigator open-type="switchTab" url="/pages/category">
+      <image src="/static/uploads/icon_index_nav_4@2x.png"></image>
+    </navigator>
+    <navigator url="/pages/list">
+      <image src="/static/uploads/icon_index_nav_3@2x.png"></image>
+    </navigator>
+    <navigator url="/pages/list">
+      <image src="/static/uploads/icon_index_nav_2@2x.png"></image>
+    </navigator>
+    <navigator url="/pages/list">
+      <image src="/static/uploads/icon_index_nav_1@2x.png"></image>
+    </navigator>
+  </view>
+  
+  <view class="floors">
+    <view class="floor">
+      <view class="title">
+        <image src="/static/uploads/pic_floor01_title.png"></image>
+      </view>
+      <view class="items">
+        <navigator url="/pages/list">
+          <image src="/static/uploads/pic_floor01_1@2x.png"></image>
+        </navigator>
+        <navigator url="/pages/list">
+          <image src="/static/uploads/pic_floor01_2@2x.png"></image>
+        </navigator>
+        <navigator url="/pages/list">
+          <image src="/static/uploads/pic_floor01_3@2x.png"></image>
+        </navigator>
+        <navigator url="/pages/list">
+          <image src="/static/uploads/pic_floor01_4@2x.png"></image>
+        </navigator>
+        <navigator url="/pages/list">
+          <image src="/static/uploads/pic_floor01_5@2x.png"></image>
+        </navigator>
+      </view>
+    </view>
+    <view class="floor">
+      <view class="title">
+        <image src="/static/uploads/pic_floor02_title.png"></image>
+      </view>
+      <view class="items">
+        <navigator url="/pages/list">
+          <image src="/static/uploads/pic_floor02_1@2x.png"></image>
+        </navigator>
+        <navigator url="/pages/list">
+          <image src="/static/uploads/pic_floor02_2@2x.png"></image>
+        </navigator>
+        <navigator url="/pages/list">
+          <image src="/static/uploads/pic_floor02_3@2x.png"></image>
+        </navigator>
+        <navigator url="/pages/list">
+          <image src="/static/uploads/pic_floor02_4@2x.png"></image>
+        </navigator>
+        <navigator url="/pages/list">
+          <image src="/static/uploads/pic_floor02_5@2x.png"></image>
+        </navigator>
+      </view>
+    </view>
+    <view class="floor">
+      <view class="title">
+        <image src="/static/uploads/pic_floor03_title.png"></image>
+      </view>
+      <view class="items">
+        <navigator url="/pages/list">
+          <image src="/static/uploads/pic_floor03_1@2x.png"></image>
+        </navigator>
+        <navigator url="/pages/list">
+          <image src="/static/uploads/pic_floor03_2@2x.png"></image>
+        </navigator>
+        <navigator url="/pages/list">
+          <image src="/static/uploads/pic_floor03_3@2x.png"></image>
+        </navigator>
+        <navigator url="/pages/list">
+          <image src="/static/uploads/pic_floor03_4@2x.png"></image>
+        </navigator>
+        <navigator url="/pages/list">
+          <image src="/static/uploads/pic_floor03_5@2x.png"></image>
+        </navigator>
+      </view>
+    </view>
+  </view>
+</view>

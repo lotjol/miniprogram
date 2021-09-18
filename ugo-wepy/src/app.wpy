@@ -1,0 +1,88 @@
+<style lang="less">
+  image {
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+  }
+
+  input {
+    display: block;
+    height: 100%;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+  }
+
+  .tips {
+    text-align: center;
+    margin-top: 200rpx;
+    font-size: 36rpx;
+    color: #666;
+  }
+
+  .getMore {
+    text-align: center;
+    line-height: 1;
+    padding: 20rpx;
+    font-size: 30rpx;
+    color: #666;
+    background-color: #fff;    
+  }
+
+</style>
+
+<script>
+  import wepy from '@wepy/core';
+
+  wepy.app({
+    
+  });
+</script>
+<config>
+  {
+    pages: [
+      'pages/index',
+      'pages/category',
+      'pages/cart',
+      'pages/center',
+      'pages/goods',
+      'pages/list',
+      'pages/order'
+    ],
+    window: {
+      navigationBarBackgroundColor: "#ea4451",
+      navigationBarTitleText: "黑马优购"
+    },
+    tabBar: {
+      color: "#333",
+      backgroundColor: "#fff",
+      selectedColor: "#ea4451",
+      list: [
+        {
+          text: "首页",
+          pagePath: "pages/index",
+          iconPath: "static/tabs/icon_home@3x.png",
+          selectedIconPath: "static/tabs/icon_home_active@3x.png"
+        },
+        {
+          text: "分类",
+          pagePath: "pages/category",
+          iconPath: "static/tabs/icon_category@3x.png",
+          selectedIconPath: "static/tabs/icon_category_active@3x.png"
+        },
+        {
+          text: "购物车",
+          pagePath: "pages/cart",
+          iconPath: "static/tabs/icon_cart@3x.png",
+          selectedIconPath: "static/tabs/icon_cart_active@3x.png"
+        },
+        {
+          text: "我的",
+          pagePath: "pages/center",
+          iconPath: "static/tabs/icon_user@3x.png",
+          selectedIconPath: "static/tabs/icon_user_active@3x.png"
+        }
+      ]
+    }
+  }
+</config>

@@ -1,0 +1,97 @@
+.wrapper {
+  margin-bottom: 100rpx;
+  background-color: #f4f4f4;
+}
+.pics {
+  height: 640rpx;
+}
+.meta {
+  height: 250rpx;
+  line-height: 1;
+  padding: 30rpx 180rpx 30rpx 20rpx;
+  box-sizing: border-box;
+  background-color: #fff;
+  position: relative;
+}
+.meta .price {
+  font-size: 36rpx;
+  color: #ea4451;
+  margin-bottom: 20rpx;
+}
+.meta .name {
+  color: #333;
+  line-height: 1.4;
+  font-size: 33rpx;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+.meta .shipment {
+  font-size: 27rpx;
+  color: #999;
+  position: absolute;
+  bottom: 30rpx;
+}
+.meta .collect {
+  width: 140rpx;
+  height: 88rpx;
+  text-align: center;
+  padding-top: 50rpx;
+  box-sizing: border-box;
+  border-left: 1rpx solid #ddd;
+  font-size: 22rpx;
+  color: #999;
+  position: absolute;
+  right: 20rpx;
+  top: 91rpx;
+}
+.detail image {
+  width: 100%;
+  height: 480rpx;
+  margin-top: 20rpx;
+}
+.action {
+  width: 100%;
+  height: 98rpx;
+  background-color: #fff;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  display: flex;
+}
+.action label {
+  display: block;
+}
+.action .add,
+.action .buy {
+  width: 210rpx;
+  text-align: center;
+  line-height: 98rpx;
+  font-size: 27rpx;
+  color: #fff;
+}
+.action .add {
+  background-color: #f4b73f;
+}
+.action .buy {
+  background-color: #ea4451;
+}
+.action button {
+  padding: 0;
+  border-radius: 0;
+  background-color: #fff;
+}
+.action button::after {
+  border: none;
+}
+.action button,
+.action .cart {
+  flex: 1;
+  line-height: 1;
+  color: #989898;
+  font-size: 24rpx;
+  box-sizing: border-box;
+  padding-top: 56rpx;
+}
+

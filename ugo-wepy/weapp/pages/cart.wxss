@@ -1,0 +1,171 @@
+.shipment {
+  height: 100rpx;
+  line-height: 2;
+  padding: 30rpx 30rpx 40rpx 30rpx;
+  font-size: 27rpx;
+  color: #333;
+  background-color: #fff;
+  background-image: url(https://static.botue.com/ugo/images/cart_border%402x.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+.shipment .dt {
+  width: 140rpx;
+  float: left;
+  clear: both;
+}
+.shipment .dd {
+  padding-left: 160rpx;
+}
+.shipment .meta {
+  padding-right: 50rpx;
+}
+.shipment .phone {
+  float: right;
+}
+.carts {
+  background-color: #f4f4f4;
+  padding-bottom: 110rpx;
+  overflow: hidden;
+}
+.carts .item {
+  margin-top: 20rpx;
+}
+.carts .shopname {
+  padding: 30rpx;
+  font-size: 30rpx;
+  color: #333;
+  background-color: #fff;
+  border-top: 1rpx solid #eee;
+  border-bottom: 1rpx solid #eee;
+}
+.carts .goods {
+  display: flex;
+  padding: 30rpx 20rpx 30rpx 0;
+  margin-left: 100rpx;
+  border-bottom: 1rpx solid #eee;
+  background-color: #fff;
+  position: relative;
+}
+.carts .goods .checkbox {
+  display: block;
+  width: 101rpx;
+  height: 100%;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: -100rpx;
+  top: 0;
+}
+.carts .goods:last-child {
+  border-bottom: none;
+}
+.carts .goods .pic {
+  width: 200rpx;
+  height: 200rpx;
+  margin-right: 30rpx;
+}
+.carts .goods .meta {
+  flex: 1;
+  font-size: 27rpx;
+  color: #333;
+  position: relative;
+}
+.carts .goods .name {
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.carts .goods .price {
+  position: absolute;
+  bottom: 0;
+  color: #ea4451;
+  font-size: 33rpx;
+}
+.carts .goods .price label {
+  font-size: 22rpx;
+}
+.carts .goods .amount {
+  position: absolute;
+  bottom: 0;
+  right: 20rpx;
+  height: 50rpx;
+  text-align: center;
+  border: 1rpx solid #ddd;
+  border-radius: 8rpx;
+  display: flex;
+  align-items: center;
+}
+.carts .goods .amount label {
+  display: block;
+  width: 60rpx;
+  height: 100%;
+  line-height: 44rpx;
+  font-size: 40rpx;
+  color: #ddd;
+  text-align: center;
+}
+.carts .goods .amount input {
+  width: 60rpx;
+  font-size: 27rpx;
+  border-left: 1rpx solid #ddd;
+  border-right: 1rpx solid #ddd;
+}
+.extra {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 9;
+  width: 750rpx;
+  height: 96rpx;
+  text-align: center;
+  font-size: 36rpx;
+  border-top: 1rpx solid #eee;
+  background-color: #fff;
+  color: #333;
+  display: flex;
+}
+.extra .checkall {
+  width: 140rpx;
+  line-height: 1;
+  margin-left: 25rpx;
+  display: flex;
+  align-items: center;
+}
+.extra .checkall icon {
+  margin-right: 20rpx;
+}
+.extra .total {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+.extra .total label {
+  position: relative;
+  font-size: 24rpx;
+  bottom: -4rpx;
+}
+.extra .total label:first-child {
+  margin-left: 10rpx;
+}
+.extra .total .num {
+  color: #ea4451;
+  font-size: 40rpx;
+  bottom: -2rpx;
+}
+.extra .pay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200rpx;
+  background-color: #ea4451;
+  color: #fff;
+}
+

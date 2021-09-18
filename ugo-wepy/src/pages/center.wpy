@@ -1,0 +1,136 @@
+<template>
+  <div class="wrapper">
+    <!-- 个人资料 -->
+    <div class="profile">
+      <div class="meta">
+        <img src="/static/uploads/monkey.png" class="avatar" />
+        <span>孙悟空</span>
+      </div>
+    </div>
+    <!-- 统计 -->
+    <div class="count">
+      <div class="cell">
+        4 <span>收藏的店铺</span>
+      </div>
+      <div class="cell">
+        21 <span>收藏的商品</span>
+      </div>
+      <div class="cell">
+        16 <span>关注的商品</span>
+      </div>
+      <div class="cell">
+        98 <span>我的足迹</span>
+      </div>
+    </div>
+    <!-- 其它 -->
+    <div class="extra">
+      <div class="item">
+        <navigator url="/pages/order">我的订单</navigator>
+      </div>
+      <div class="item">收货地址</div>
+      <div class="item">联系客服</div>
+      <button class="item" open-type="feedback">意见反馈</button>
+    </div>
+  </div>
+</template>
+
+<script>
+  import wepy from '@wepy/core';
+
+  wepy.page({
+
+  });
+</script>
+
+<style scoped lang="less">
+  .wrapper {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+
+    width: 100%;
+    background-color: #f4f4f4;
+  }
+
+  .profile {
+    height: 360rpx;
+    background-color: #ea4451;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .meta {
+
+      .avatar {
+        display: block;
+        width: 140rpx;
+        height: 140rpx;
+        border-radius: 50%;
+        border: 2rpx solid #fff;
+        overflow: hidden;
+      }
+
+      label {
+        display: block;
+        text-align: center;
+        margin-top: 20rpx;
+        font-size: 27rpx;
+        color: #fff;
+      }
+    }
+  }
+
+  .count {
+    display: flex;
+    margin: 0 20rpx;
+    height: 100rpx;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 4rpx;
+
+    position: relative;
+    top: -24rpx;
+
+    .cell {
+      flex: 1;
+      padding-top: 16rpx;
+      font-size: 27rpx;
+      color: #333;
+    }
+
+    label {
+      display: block;
+      font-size: 24rpx;
+    }
+  }
+
+  .extra {
+    margin: -14rpx 20rpx 0 20rpx;
+    background-color: #fff;
+    border-radius: 4rpx;
+
+    .item {
+      height: 80rpx;
+      line-height: 80rpx;
+      padding-left: 20rpx;
+      border-bottom: 1rpx solid #eee;
+      font-size: 27rpx;
+      color: #333;
+
+      &:last-child {
+        border: none;
+      }
+    }
+
+    button {
+      text-align: left;
+      background-color: #fff;
+
+      &::after {
+        content: '';
+        border: none;
+      }
+    }
+  }
+</style>
+

@@ -1,0 +1,57 @@
+
+<view>
+  
+  <view class="filter">
+    <label class="active">综合</label>
+    <label>销量</label>
+    <label>价格</label>
+  </view>
+  
+  <scroll-view scroll-y="{{ true }}" class="goods">
+    <view data-wpy-evt="7-0" bindtap="_proxy" class="item">
+      
+      <image src="/static/uploads/goods_1.jpg" class="pic"></image>
+      
+      <view class="meta">
+        <view class="name">【海外购自营】黎珐(ReFa) MTG日本 CARAT铂金微电流瘦脸瘦身提拉紧致V脸美容仪 【保税仓发货】</view>
+        <view class="price"><label>￥</label>1399<label>.00</label></view>
+      </view>
+    </view>
+    <view data-wpy-evt="7-1" bindtap="_proxy" class="item">
+      
+      <image src="/static/uploads/goods_2.jpg" class="pic"></image>
+      
+      <view class="meta">
+        <view class="name">卡奇莱德汽车车载空气净化器负离子除甲醛PM2.5除烟异味车用氧吧双涡轮出风（红色）</view>
+        <view class="price"><label>￥</label>168<label>.00</label></view>
+      </view>
+    </view>
+    <view data-wpy-evt="7-2" bindtap="_proxy" class="item">
+      
+      <image src="/static/uploads/goods_3.jpg" class="pic"></image>
+      
+      <view class="meta">
+        <view class="name">沿途（yantu）车载充电器车充一拖二usb转接口手机智能头多功能汽车点烟器</view>
+        <view class="price"><label>￥</label>168<label>.00</label></view>
+      </view>
+    </view>
+    <view data-wpy-evt="7-3" bindtap="_proxy" class="item">
+      
+      <image src="/static/uploads/goods_4.jpg" class="pic"></image>
+      
+      <view class="meta">
+        <view class="name">车载冰箱7.5L 冷暖两用汽车冰箱半导体12V迷你电冰箱升级款</view>
+        <view class="price"><label>￥</label>168<label>.00</label></view>
+      </view>
+    </view>
+    <view data-wpy-evt="7-4" bindtap="_proxy" class="item">
+      
+      <image src="/static/uploads/goods_5.jpg" class="pic"></image>
+      
+      <view class="meta">
+        <view class="name">神行者电子狗 神行者L70电子狗测速 测速雷达 流动测速 多种警示路段提醒</view>
+        <view class="price"><label>￥</label>168<label>.00</label></view>
+      </view>
+    </view>
+  </scroll-view>
+</view>

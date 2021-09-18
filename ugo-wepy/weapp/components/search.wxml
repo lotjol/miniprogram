@@ -1,0 +1,51 @@
+
+
+<view class="search {{ [ focused ? 'focused' : '' ] }}">
+  
+  <view data-wpy-evt="9-4" bindtap="_proxy" class="input-wrap">
+    <input type="text" placeholder="{{ placeholder }}"></input>
+    <label data-wpy-evt="9-5" catchtap="_proxy" class="cancel">取消</label>
+  </view>
+  
+  <view class="content">
+    <view class="title">搜索历史<label class="clear"></label></view>
+    <view class="history">
+      <navigator url="">小米</navigator>
+      <navigator url="">智能电视</navigator>
+      <navigator url="">小米空气净化器</navigator>
+      <navigator url="">西门子洗碗机</navigator>
+      <navigator url="">华为手机</navigator>
+      <navigator url="">苹果</navigator>
+      <navigator url="">锤子</navigator>
+    </view>
+    
+    <scroll-view scroll-y="" class="result">
+      <navigator url="">小米</navigator>
+      <navigator url="">小米</navigator>
+      <navigator url="">小米</navigator>
+      <navigator url="">小米</navigator>
+      <navigator url="">小米</navigator>
+      <navigator url="">小米</navigator>
+      <navigator url="">小米</navigator>
+      <navigator url="">小米</navigator>
+      <navigator url="">小米</navigator>
+      <navigator url="">小米</navigator>
+      <navigator url="">小米</navigator>
+      <navigator url="">小米</navigator>
+      <navigator url="">小米</navigator>
+      <navigator url="">小米</navigator>
+      <navigator url="">小米</navigator>
+      <navigator url="">小米</navigator>
+      <navigator url="">小米</navigator>
+      <navigator url="">小米</navigator>
+      <navigator url="">小米</navigator>
+      <navigator url="">小米</navigator>
+      <navigator url="">小米</navigator>
+      <navigator url="">小米</navigator>
+      <navigator url="">小米</navigator>
+      <navigator url="">小米</navigator>
+      <navigator url="">小米</navigator>
+      <navigator url="">小米</navigator>
+    </scroll-view>
+  </view>
+</view>

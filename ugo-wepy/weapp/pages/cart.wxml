@@ -1,0 +1,100 @@
+
+<view class="wrapper">
+  
+  <view class="shipment">
+    <view class="dt">收货人: </view>
+    <view class="dd meta">
+      <label class="name">刘德华</label>
+      <label class="phone">13535337057</label>
+    </view>
+    <view class="dt">收货地址:</view>
+    <view class="dd">广东省广州市天河区一珠吉</view>
+  </view>
+  
+  <view class="carts">
+    <view class="item">
+      
+      <view class="shopname">优购生活馆</view>
+      <view class="goods">
+        
+        <navigator url="/pages/goods">
+          <image src="/static/uploads/goods_1.jpg" class="pic"></image>
+        </navigator>
+        
+        <view class="meta">
+          <view class="name">【海外购自营】黎珐(ReFa) MTG日本 CARAT铂金微电流瘦脸瘦身提拉紧致V脸美容仪 【保税仓发货】</view>
+          <view class="price">
+            <label>￥</label>1399<label>.00</label>
+          </view>
+          
+          <view class="amount">
+            <label class="reduce">-</label>
+            <input type="number" value="1" class="number"></input>
+            <label class="plus">+</label>
+          </view>
+        </view>
+        
+        <label class="checkbox">
+          <icon type="success" size="20" color="#ea4451"></icon>
+        </label>
+      </view>
+      <view class="goods">
+        
+        <navigator url="/pages/goods">
+          <image src="/static/uploads/goods_2.jpg" class="pic"></image>
+        </navigator>
+        
+        <view class="meta">
+          <view class="name">【海外购自营】黎珐(ReFa) MTG日本 CARAT铂金微电流瘦脸瘦身提拉紧致V脸美容仪 【保税仓发货】</view>
+          <view class="price">
+            <label>￥</label>1399<label>.00</label>
+          </view>
+          
+          <view class="amount">
+            <label class="reduce">-</label>
+            <input type="number" value="1" class="number"></input>
+            <label class="plus">+</label>
+          </view>
+        </view>
+        
+        <label class="checkbox">
+          <icon type="success" size="20" color="#ea4451"></icon>
+        </label>
+      </view>
+      <view class="goods">
+        
+        <navigator url="/pages/goods">
+          <image src="/static/uploads/goods_5.jpg" class="pic"></image>
+        </navigator>
+        
+        <view class="meta">
+          <view class="name">【海外购自营】黎珐(ReFa) MTG日本 CARAT铂金微电流瘦脸瘦身提拉紧致V脸美容仪 【保税仓发货】</view>
+          <view class="price">
+            <label>￥</label>1399<label>.00</label>
+          </view>
+          
+          <view class="amount">
+            <label class="reduce">-</label>
+            <input type="number" value="1" class="number"></input>
+            <label class="plus">+</label>
+          </view>
+        </view>
+        
+        <label class="checkbox">
+          <icon type="success" size="20" color="#ccc"></icon>
+        </label>
+      </view>
+    </view>
+  </view>
+  
+  <view class="extra">
+    <label class="checkall">
+      <icon type="success" color="#ccc" size="20"></icon>
+      全选
+    </label>
+    <view class="total">
+      合计: <label>￥</label><label class="num">14110</label><label>.00</label>
+    </view>
+    <view class="pay">结算(3)</view>
+  </view>
+</view>

@@ -1,0 +1,72 @@
+.wrapper {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #f4f4f4;
+}
+.profile {
+  height: 360rpx;
+  background-color: #ea4451;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.profile .meta .avatar {
+  width: 140rpx;
+  height: 140rpx;
+  border-radius: 50%;
+  border: 2rpx solid #fff;
+}
+.profile .meta label {
+  display: block;
+  text-align: center;
+  margin-top: 20rpx;
+  font-size: 27rpx;
+  color: #fff;
+}
+.count {
+  display: flex;
+  margin: 0 20rpx;
+  height: 100rpx;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 4rpx;
+  position: relative;
+  top: -24rpx;
+}
+.count .cell {
+  flex: 1;
+  padding-top: 16rpx;
+  font-size: 27rpx;
+  color: #333;
+}
+.count label {
+  display: block;
+  font-size: 24rpx;
+}
+.extra {
+  margin: -14rpx 20rpx 0 20rpx;
+  background-color: #fff;
+  border-radius: 4rpx;
+}
+.extra .item {
+  height: 80rpx;
+  line-height: 80rpx;
+  padding-left: 20rpx;
+  border-bottom: 1rpx solid #eee;
+  font-size: 27rpx;
+  color: #333;
+}
+.extra .item:last-child {
+  border: none;
+}
+.extra button {
+  text-align: left;
+  background-color: #fff;
+}
+.extra button::after {
+  content: '';
+  border: none;
+}
+
