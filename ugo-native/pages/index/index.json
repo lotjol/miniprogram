@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "ugo-search": "/components/search/index"
+  }
+}

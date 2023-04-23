@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "ugo-search": "/components/search/index"
+  },
+  "disableScroll": true
+}

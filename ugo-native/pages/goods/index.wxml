@@ -1,0 +1,38 @@
+<view class="wrapper">
+  <!-- 商品图片 -->
+  <swiper class="pics" indicator-dots indicator-color="rgba(255, 255, 255, 0.6)" indicator-active-color="#fff">
+    <swiper-item>
+      <image src="https://lotjol.github.io/static-store/ugo/uploads/detail_1.jpg"></image>
+    </swiper-item>
+    <swiper-item>
+      <image src="https://lotjol.github.io/static-store/ugo/uploads/detail_2.jpg"></image>
+    </swiper-item>
+    <swiper-item>
+      <image src="https://lotjol.github.io/static-store/ugo/uploads/detail_3.jpg"></image>
+    </swiper-item>
+    <swiper-item>
+      <image src="https://lotjol.github.io/static-store/ugo/uploads/detail_4.jpg"></image>
+    </swiper-item>
+    <swiper-item>
+      <image src="https://lotjol.github.io/static-store/ugo/uploads/detail_5.jpg"></image>
+    </swiper-item>
+  </swiper>
+  <!-- 基本信息 -->
+  <view class="meta">
+    <view class="price">￥199</view>
+    <view class="name">初语秋冬新款毛衣女 套头宽松针织衫简约插肩袖上衣</view>
+    <view class="shipment">快递: 免运费</view>
+    <text class="collect icon-star">收藏</text>
+  </view>
+  <!-- 商品详情 -->
+  <view class="detail">
+    <rich-text nodes="{{'<p>需要在这里渲染富文本的内容</>'}}"></rich-text>
+  </view>
+  <!-- 操作 -->
+  <view class="action">
+    <button open-type="contact" class="icon-handset">联系客服</button>
+    <text class="cart icon-cart" bind:tap="goCart">购物车</text>
+    <text class="add">加入购物车</text>
+    <text class="buy" bind:tap="createOrder">立即购买</text>
+  </view>
+</view>
