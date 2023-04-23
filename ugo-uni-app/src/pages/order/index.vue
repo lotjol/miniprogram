@@ -139,7 +139,7 @@
     margin-bottom: 20rpx;
     
     &:last-child {
-      margin-botton: 50rpx;
+      margin-bottom: 50rpx;
     }
 
     .goods {

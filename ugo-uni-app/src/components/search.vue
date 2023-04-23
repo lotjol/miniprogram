@@ -1,15 +1,15 @@
 <template>
   <!-- 搜索 -->
-  <div class="search" :class="{focused: focused}">
+  <view class="search" :class="{focused: focused}">
     <!-- 搜索框 -->
-    <div class="input-wrap" @click="goSearch">
+    <view class="input-wrap" @click="goSearch">
       <input type="text" :placeholder="placeholder">
-      <span class="cancle" @click.stop="cancleSearch">取消</span>
-    </div>
+      <text class="cancel" @click.stop="cancleSearch">取消</text>
+    </view>
     <!-- 搜索结果 -->
-    <div class="content">
-      <div class="title">搜索历史<span class="clear"></span></div>
-      <div class="history">
+    <view class="content">
+      <view class="title">搜索历史<text class="clear"></text></view>
+      <view class="history">
         <navigator url="/pages/list/index">小米</navigator>
         <navigator url="/pages/list/index">智能电视</navigator>
         <navigator url="/pages/list/index">小米空气净化器</navigator>
@@ -17,7 +17,7 @@
         <navigator url="/pages/list/index">华为手机</navigator>
         <navigator url="/pages/list/index">苹果</navigator>
         <navigator url="/pages/list/index">锤子</navigator>
-      </div>
+      </view>
       <!-- 结果 -->
       <scroll-view scroll-y class="result">
         <navigator url="/pages/goods/index">小米</navigator>
@@ -39,8 +39,8 @@
         <navigator url="/pages/goods/index">小米</navigator>
         <navigator url="/pages/goods/index">小米</navigator>
       </scroll-view>
-    </div>
-  </div>
+    </view>
+  </view>
 </template>
 
 <script>
@@ -137,7 +137,7 @@
         color: #666;
       }
 
-      span.cancle {
+      text.cancel {
         display: none;
         width: 80rpx;
         text-align: right;
@@ -229,7 +229,7 @@
         }
       }
 
-      span.cancle {
+      text.cancel {
         display: block;
       }
 
